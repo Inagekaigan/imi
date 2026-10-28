@@ -94,7 +94,7 @@ This is not a production-ready quality assessor. One natural domain, two MT syst
 
 The next study should collect legally reusable natural examples from multiple domains and systems, independently annotate specific semantic categories and spans, reserve entirely new documents and templates, and compare an external QE baseline. Since this final test has now been inspected, future tuning requires a new final test. Prospective annotators should record ambiguity and context requirements, and publish agreement before adjudication. Evaluate omission, addition and scope errors separately, including paraphrase and names/numbers counterfactuals.
 
-Local processing reduces disclosure risk, but optional history/feedback are unencrypted. Feedback is never automatically added to research splits. Corpus annotations are CC BY-NC-SA 4.0 and exclude source-document rights; code's MIT license does not clear model redistribution. The app must not be marketed as certifying legal, medical or other consequential translations. This report and implementation were produced with AI coding assistance; authors should state their actual contribution and independently audit claims before academic submission.
+Local processing reduces disclosure risk, but optional history/feedback are unencrypted. Feedback is never automatically added to research splits. Corpus annotations are CC BY-NC-SA 4.0 and exclude source-document rights; the project notice does not clear model redistribution. The app must not be marketed as certifying legal, medical or other consequential translations. This report and implementation were produced with AI coding assistance; authors should state their actual contribution and independently audit claims before academic submission.
 
 ## References
 

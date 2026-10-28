@@ -23,4 +23,4 @@ Required training schema:
 
 Use `split: "test"` for held-out evaluation. Keep all sentence variants from one document and their augmentations in the same group/split. Do not use a real held-out test set to tune features or thresholds. For research-scale work, add a separate development set and retain a frozen external test set; the bundled trainer currently supports only train/test.
 
-The bundled `synthetic.jsonl` is generated from authored templates, not gathered from real translation errors. It is licensed under the repository's MIT license.
+The bundled `synthetic.jsonl` is generated from authored templates, not gathered from real translation errors. No public reuse license is granted for these Imi-authored examples; see LICENSE.

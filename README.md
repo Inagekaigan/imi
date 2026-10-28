@@ -106,7 +106,7 @@ History is off by default and limited to 100 saved results. Optional feedback st
 
 ## Licensing
 
-Imi code is MIT; bundled fonts retain their OFL notices. **The natural corpus annotations are CC BY-NC-SA 4.0, and upstream excludes rights to the source documents.** The research weights and neural executable are not offered here as MIT-licensed or commercially cleared downloads. Read [DATA_LICENSES.md](research/DATA_LICENSES.md) before redistributing them.
+Imi-authored code and materials are reserved for this master's research project; no public reuse license is granted. See [LICENSE](LICENSE). Bundled fonts retain their OFL notices. **The natural corpus annotations are CC BY-NC-SA 4.0, and upstream excludes rights to the source documents.** The research weights and neural executable are not offered here as MIT-licensed or commercially cleared downloads. Read [DATA_LICENSES.md](research/DATA_LICENSES.md) before redistributing them.
 
 ## Next steps
 

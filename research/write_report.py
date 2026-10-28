@@ -78,7 +78,7 @@ This is not a production-ready quality assessor. One natural domain, two MT syst
 
 The next study should collect legally reusable natural examples from multiple domains and systems, independently annotate specific semantic categories and spans, reserve entirely new documents and templates, and compare an external QE baseline. Since this final test has now been inspected, future tuning requires a new final test. Prospective annotators should record ambiguity and context requirements, and publish agreement before adjudication. Evaluate omission, addition and scope errors separately, including paraphrase and names/numbers counterfactuals.
 
-Local processing reduces disclosure risk, but optional history/feedback are unencrypted. Feedback is never automatically added to research splits. Corpus annotations are CC BY-NC-SA 4.0 and exclude source-document rights; code's MIT license does not clear model redistribution. The app must not be marketed as certifying legal, medical or other consequential translations. This report and implementation were produced with AI coding assistance; authors should state their actual contribution and independently audit claims before academic submission.
+Local processing reduces disclosure risk, but optional history/feedback are unencrypted. Feedback is never automatically added to research splits. Corpus annotations are CC BY-NC-SA 4.0 and exclude source-document rights; the project notice does not clear model redistribution. The app must not be marketed as certifying legal, medical or other consequential translations. This report and implementation were produced with AI coding assistance; authors should state their actual contribution and independently audit claims before academic submission.
 
 ## References
 
@@ -111,7 +111,7 @@ Token-head F1 at research threshold 0.5 is 0.702 on known labels. The UI uses 0.
 
 Deployment: actual local ONNX CPU inference; 192-token combined limit, no truncation. FP32 chosen after two uint8 exports exceeded numerical drift limits. Approximately 1.11 GB graph; 62 ms median warm CPU time in the recorded validation check, excluding cold load and tokenization. Runtime and timings vary by machine. See manifest hashes and full report.
 
-License: code MIT, pretrained base MIT, natural annotations CC BY-NC-SA 4.0 with source rights excluded. The research checkpoint is not declared commercially cleared or MIT. Read research/DATA_LICENSES.md before redistribution.
+License: Imi-authored code has no public reuse license; pretrained base MIT, natural annotations CC BY-NC-SA 4.0 with source rights excluded. The research checkpoint is not declared commercially cleared or MIT. Read research/DATA_LICENSES.md before redistribution.
 
 Known gaps: natural semantic errors, unfamiliar domains, complex referents, conditional/causative scope, long documents, legitimate paraphrases, entity substitutions, external QE comparison, independent annotation, clean-Windows testing and faithful explanations. No correction generator is provided.
 

@@ -4,7 +4,7 @@
   "description": "Offline Japanese-English semantic error research desktop with local XLM-R inference",
   "main": "src/main.cjs",
   "author": "Imi contributors",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "scripts": {
     "start": "electron .",
     "train": "node scripts/train.cjs",

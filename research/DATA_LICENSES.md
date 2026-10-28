@@ -1,6 +1,6 @@
 # Data and model provenance
 
-The repository's MIT license covers Imi-authored code, not all dependencies, corpora or derived checkpoints.
+Imi-authored code and materials have no public reuse license; see LICENSE. Dependencies, corpora and pretrained models retain their own licenses.
 
 ## MTPEdocs-MQM
 
@@ -9,11 +9,11 @@ Downloaded files and checksums are recorded in `data/mtpedocs-manifest.json`. Re
 
 The upstream repository licenses its annotations under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0**, explicitly excluding the source documents. We use published Japanese-English TexTra and Google outputs and their human MQM annotations for a local research pilot. We do not claim that the upstream license grants commercial rights to the source text or automatically settles the legal status of derived model weights.
 
-Raw and processed natural text are excluded from Git and the source archive. Reproduction downloads directly from the attributed source. The local checkpoint is research-only pending a redistribution and source-rights review. Do not publish the bundled neural binary or checkpoint under the code's MIT license. A code-only release can be published independently. The desktop's research-use notice is deliberate.
+Raw and processed natural text are excluded from Git and the source archive. Reproduction downloads directly from the attributed source. The local checkpoint is research-only pending a redistribution and source-rights review. The project notice does not grant redistribution rights for the bundled neural binary or checkpoint. A code-only release can be published independently. The desktop's research-use notice is deliberate.
 
 ## Authored contrastive examples
 
-`contrastive.py` contains Imi-authored examples under the repository MIT license. They are generated constructions, not collected human judgments. They include positive and negative translations, scopes, modalities, quantities, agents and deadlines. No independent Japanese expert has verified these labels. Count them separately from natural MT.
+`contrastive.py` contains Imi-authored examples with no public reuse license granted (see LICENSE). They are generated constructions, not collected human judgments. They include positive and negative translations, scopes, modalities, quantities, agents and deadlines. No independent Japanese expert has verified these labels. Count them separately from natural MT.
 
 ## Pretrained encoder
 

@@ -14,7 +14,7 @@ Token-head F1 at research threshold 0.5 is 0.702 on known labels. The UI uses 0.
 
 Deployment: actual local ONNX CPU inference; 192-token combined limit, no truncation. FP32 chosen after two uint8 exports exceeded numerical drift limits. Approximately 1.11 GB graph; 62 ms median warm CPU time in the recorded validation check, excluding cold load and tokenization. Runtime and timings vary by machine. See manifest hashes and full report.
 
-License: code MIT, pretrained base MIT, natural annotations CC BY-NC-SA 4.0 with source rights excluded. The research checkpoint is not declared commercially cleared or MIT. Read research/DATA_LICENSES.md before redistribution.
+License: Imi-authored code has no public reuse license; pretrained base MIT, natural annotations CC BY-NC-SA 4.0 with source rights excluded. The research checkpoint is not declared commercially cleared or MIT. Read research/DATA_LICENSES.md before redistribution.
 
 Known gaps: natural semantic errors, unfamiliar domains, complex referents, conditional/causative scope, long documents, legitimate paraphrases, entity substitutions, external QE comparison, independent annotation, clean-Windows testing and faithful explanations. No correction generator is provided.
 
