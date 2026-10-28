@@ -5,7 +5,14 @@ const path=require('node:path');
 const fs=require('node:fs');
 class NeuralWorker {
   constructor(root,packaged=false){this.root=root;this.packaged=packaged;this.pending=new Map();this.sequence=0;}
-  manifest(){const p=path.join(this.root,'model/neural/manifest.json');return fs.existsSync(p)?JSON.parse(fs.readFileSync(p,'utf8')):null;}
+  manifest(){
+    const directory=path.join(this.root,'model/neural'),p=path.join(directory,'manifest.json');
+    if(!fs.existsSync(p))return null;
+    const metadata=JSON.parse(fs.readFileSync(p,'utf8'));
+    const runtime=this.packaged?path.join(this.root,'backend/imi-inference.exe'):path.join(this.root,'.venv/Scripts/python.exe');
+    if(!metadata.modelFile||![path.join(directory,metadata.modelFile),path.join(directory,'tokenizer.json'),runtime].every(file=>fs.existsSync(file)))return null;
+    return metadata;
+  }
   async start(){
     if(this.ready)return this.ready;
     this.ready=new Promise((resolve,reject)=>{
