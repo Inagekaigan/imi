@@ -1,0 +1,48 @@
+{
+  "dataset": "authored synthetic templates",
+  "warning": "Template-held-out synthetic evaluation is a pipeline check, not evidence of real-world translation accuracy.",
+  "trainRows": 411,
+  "testRows": 210,
+  "metrics": [
+    {
+      "category": "negation",
+      "tp": 20,
+      "fp": 0,
+      "fn": 0,
+      "tn": 190,
+      "precision": 1,
+      "recall": 1,
+      "assessed": 30
+    },
+    {
+      "category": "uncertainty",
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "tn": 182,
+      "precision": 1,
+      "recall": 1,
+      "assessed": 50
+    },
+    {
+      "category": "quantity",
+      "tp": 132,
+      "fp": 0,
+      "fn": 0,
+      "tn": 78,
+      "precision": 1,
+      "recall": 1,
+      "assessed": 144
+    },
+    {
+      "category": "agent",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "tn": 206,
+      "precision": 1,
+      "recall": 1,
+      "assessed": 8
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "policy": "See PROTOCOL.md",
+  "labels": [
+    "negation",
+    "uncertainty",
+    "quantity",
+    "agent",
+    "temporal",
+    "conditional",
+    "entity_terminology",
+    "omission",
+    "addition",
+    "other"
+  ],
+  "excluded": {
+    "minor_semantic_ambiguous": 337,
+    "source_error": 2,
+    "exact_pair_duplicate": 325
+  },
+  "splits": {
+    "train": {
+      "rows": 1348,
+      "altered": 395,
+      "sources": {
+        "MTPEdocs-MQM": 899,
+        "authored_contrastive": 449
+      },
+      "categories": {
+        "negation": {
+          "positive": 32,
+          "known": 1253
+        },
+        "uncertainty": {
+          "positive": 58,
+          "known": 1253
+        },
+        "quantity": {
+          "positive": 181,
+          "known": 1253
+        },
+        "agent": {
+          "positive": 11,
+          "known": 1253
+        },
+        "temporal": {
+          "positive": 15,
+          "known": 1253
+        },
+        "conditional": {
+          "positive": 1,
+          "known": 1253
+        },
+        "entity_terminology": {
+          "positive": 18,
+          "known": 1270
+        },
+        "omission": {
+          "positive": 18,
+          "known": 1271
+        },
+        "addition": {
+          "positive": 6,
+          "known": 1259
+        },
+        "other": {
+          "positive": 59,
+          "known": 1310
+        }
+      },
+      "sha256": "c5cc0a1fe9eeb5ccda520c6ae0e4a3c0c6da27663aae6ce315b06f0e3dfbc736"
+    },
+    "validation": {
+      "rows": 412,
+      "altered": 102,
+      "sources": {
+        "MTPEdocs-MQM": 288,
+        "authored_contrastive": 124
+      },
+      "categories": {
+        "negation": {
+          "positive": 5,
+          "known": 396
+        },
+        "uncertainty": {
+          "positive": 14,
+          "known": 396
+        },
+        "quantity": {
+          "positive": 60,
+          "known": 396
+        },
+        "agent": {
+          "positive": 3,
+          "known": 396
+        },
+        "temporal": {
+          "positive": 4,
+          "known": 396
+        },
+        "conditional": {
+          "positive": 0,
+          "known": 396
+        },
+        "entity_terminology": {
+          "positive": 8,
+          "known": 404
+        },
+        "omission": {
+          "positive": 2,
+          "known": 398
+        },
+        "addition": {
+          "positive": 3,
+          "known": 399
+        },
+        "other": {
+          "positive": 5,
+          "known": 401
+        }
+      },
+      "sha256": "a1b176d6e1ec14a6eea77075234f7e2fa03e217ebbe59fcb5df39468ff49ed01"
+    },
+    "calibration": {
+      "rows": 201,
+      "altered": 92,
+      "sources": {
+        "MTPEdocs-MQM": 77,
+        "authored_contrastive": 124
+      },
+      "categories": {
+        "negation": {
+          "positive": 5,
+          "known": 195
+        },
+        "uncertainty": {
+          "positive": 14,
+          "known": 195
+        },
+        "quantity": {
+          "positive": 60,
+          "known": 195
+        },
+        "agent": {
+          "positive": 3,
+          "known": 195
+        },
+        "temporal": {
+          "positive": 4,
+          "known": 195
+        },
+        "conditional": {
+          "positive": 0,
+          "known": 195
+        },
+        "entity_terminology": {
+          "positive": 3,
+          "known": 198
+        },
+        "omission": {
+          "positive": 0,
+          "known": 195
+        },
+        "addition": {
+          "positive": 0,
+          "known": 195
+        },
+        "other": {
+          "positive": 3,
+          "known": 198
+        }
+      },
+      "sha256": "015f3b8fea32dcc47c45fd8bca27926d1e8f33e3a31dab8e94e321158d85b880"
+    },
+    "test": {
+      "rows": 296,
+      "altered": 112,
+      "sources": {
+        "MTPEdocs-MQM": 162,
+        "authored_contrastive": 134
+      },
+      "categories": {
+        "negation": {
+          "positive": 10,
+          "known": 275
+        },
+        "uncertainty": {
+          "positive": 14,
+          "known": 275
+        },
+        "quantity": {
+          "positive": 60,
+          "known": 275
+        },
+        "agent": {
+          "positive": 3,
+          "known": 275
+        },
+        "temporal": {
+          "positive": 4,
+          "known": 275
+        },
+        "conditional": {
+          "positive": 0,
+          "known": 275
+        },
+        "entity_terminology": {
+          "positive": 7,
+          "known": 282
+        },
+        "omission": {
+          "positive": 6,
+          "known": 281
+        },
+        "addition": {
+          "positive": 1,
+          "known": 276
+        },
+        "other": {
+          "positive": 9,
+          "known": 284
+        }
+      },
+      "sha256": "f114abd87a53fe63522622268ef9ab5f2502e6c64fd36a1e38f66d12ce8c27ca"
+    }
+  },
+  "test_sealed": true
+}

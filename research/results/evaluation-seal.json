@@ -1,0 +1,37 @@
+{
+  "ordinary-seed17": {
+    "config.json": "94d0ef1fef1c2f24a9f3e023729aab718da5377d785019a3d45f0dab3a6ea8ed",
+    "calibration.json": "069bb5250fee68c2f9e02486e849ff182c46eead64f0d4297591d592fc60220a",
+    "trained.safetensors": "84d9ffb810e7028004a2ed81ced24418a2c80c934387b032aaffb53f3b314815"
+  },
+  "scope-seed17": {
+    "config.json": "6ca744ea995de65e87dc33246a3839ea093448e6b9cc2e7ec2ad67de9a5e690e",
+    "calibration.json": "9452b6a803b152520d9993aa52cd8ce77e61d1b84ed6ea1149f27a28dd0fa005",
+    "trained.safetensors": "a059f8b7cc9e1839192780b022740c29d10c60426fdd603278f469b01b50a5fd"
+  },
+  "ordinary-seed29": {
+    "config.json": "dacf0b2f0cc623e00e1cff7a48331c0a4e9d6adc55c0340035bd3444bc8c2431",
+    "calibration.json": "672ba83513e06fb5620c7aaca2ff18eb70289233908fe00ba3d34468cf91abb7",
+    "trained.safetensors": "fa9f93dca60a7d1e07add2ed1bcfe52f143db538741cbcdb014f55bd5d5d12ed"
+  },
+  "scope-seed29": {
+    "config.json": "5e63bba6c57c34afe8a1e060fbbbdcba43e3595ecccc9e9506fbd1403c0b2acc",
+    "calibration.json": "937fa695621f428d0652fe15dece58fc0f1663a7f610abcd2808435a13d3b1ad",
+    "trained.safetensors": "770c9da468c5a1e0289dc5e3e41c2d4447482c8990a9ba0aa97c89bd44ec89a9"
+  },
+  "ordinary-seed43": {
+    "config.json": "a40238b00d0d4f3ded3533eebe11e8ca5175abd0b9ebfc6f895875ce27850607",
+    "calibration.json": "7b96195b9a2c3036fd615bb3d8fc0bc326bf478a16fc6f04afc2b6a1a500224d",
+    "trained.safetensors": "9d08153fa6c1edb887e96639db67f78aa428e3b23ee55702b3829422af033973"
+  },
+  "scope-seed43": {
+    "config.json": "0b12bd95834dc54350b8bd429cc60ec216c94c19ec73754d46a46b7a53a64fd3",
+    "calibration.json": "19ad51f2411ab3f08d2cc3aa8913a07db100386276a65067d30498c261025ec0",
+    "trained.safetensors": "c7a7cb20dd794ffd29f8fafcfae3c571934f0451b84ee9e2bfa02cfbe25bda46"
+  },
+  "frozen": {
+    "config.json": "1776443034f189915392db13e612ff68ac29aee7f4de9f11a15d3e3d2dd05e38",
+    "calibration.json": "fea72ac1516bc58c907de98ed6c3ebe439cdf615205a1d231dc2d14852a9cc9c",
+    "heads.npz": "685c7b8ce964d9c24139e033516c96a80a56f814f7a9831ef17ed74a12b5aad3"
+  }
+}

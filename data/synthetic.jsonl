@@ -1,0 +1,621 @@
+{"id":"synthetic-1","group":"culprit","split":"train","japanese":"彼は犯人だ。","english":"He is the culprit.","labels":[]}
+{"id":"synthetic-2","group":"culprit","split":"train","japanese":"彼は犯人である可能性がある。","english":"He is the culprit.","labels":["uncertainty"]}
+{"id":"synthetic-3","group":"culprit","split":"train","japanese":"彼は犯人である可能性がある。","english":"He is possibly the culprit.","labels":[]}
+{"id":"synthetic-4","group":"culprit","split":"train","japanese":"彼は犯人である可能性が高い。","english":"He is the culprit.","labels":["uncertainty"]}
+{"id":"synthetic-5","group":"culprit","split":"train","japanese":"彼は犯人である可能性が高い。","english":"He is probably the culprit.","labels":[]}
+{"id":"synthetic-6","group":"culprit","split":"train","japanese":"彼は犯人だ。","english":"He is not the culprit.","labels":["negation"]}
+{"id":"synthetic-7","group":"culprit","split":"train","japanese":"彼は犯人である可能性がある。","english":"He is not the culprit.","labels":["negation","uncertainty"]}
+{"id":"synthetic-8","group":"culprit","split":"train","japanese":"彼は犯人である可能性がある。","english":"He is possibly not the culprit.","labels":["negation"]}
+{"id":"synthetic-9","group":"culprit","split":"train","japanese":"彼は犯人である可能性が高い。","english":"He is not the culprit.","labels":["negation","uncertainty"]}
+{"id":"synthetic-10","group":"culprit","split":"train","japanese":"彼は犯人である可能性が高い。","english":"He is probably not the culprit.","labels":["negation"]}
+{"id":"synthetic-11","group":"culprit","split":"train","japanese":"彼は犯人ではない。","english":"He is the culprit.","labels":["negation"]}
+{"id":"synthetic-12","group":"culprit","split":"train","japanese":"彼は犯人ではない可能性がある。","english":"He is the culprit.","labels":["negation","uncertainty"]}
+{"id":"synthetic-13","group":"culprit","split":"train","japanese":"彼は犯人ではない可能性がある。","english":"He is possibly the culprit.","labels":["negation"]}
+{"id":"synthetic-14","group":"culprit","split":"train","japanese":"彼は犯人ではない可能性が高い。","english":"He is the culprit.","labels":["negation","uncertainty"]}
+{"id":"synthetic-15","group":"culprit","split":"train","japanese":"彼は犯人ではない可能性が高い。","english":"He is probably the culprit.","labels":["negation"]}
+{"id":"synthetic-16","group":"culprit","split":"train","japanese":"彼は犯人ではない。","english":"He is not the culprit.","labels":[]}
+{"id":"synthetic-17","group":"culprit","split":"train","japanese":"彼は犯人ではない可能性がある。","english":"He is not the culprit.","labels":["uncertainty"]}
+{"id":"synthetic-18","group":"culprit","split":"train","japanese":"彼は犯人ではない可能性がある。","english":"He is possibly not the culprit.","labels":[]}
+{"id":"synthetic-19","group":"culprit","split":"train","japanese":"彼は犯人ではない可能性が高い。","english":"He is not the culprit.","labels":["uncertainty"]}
+{"id":"synthetic-20","group":"culprit","split":"train","japanese":"彼は犯人ではない可能性が高い。","english":"He is probably not the culprit.","labels":[]}
+{"id":"synthetic-21","group":"student","split":"train","japanese":"彼女は学生だ。","english":"She is a student.","labels":[]}
+{"id":"synthetic-22","group":"student","split":"train","japanese":"彼女は学生である可能性がある。","english":"She is a student.","labels":["uncertainty"]}
+{"id":"synthetic-23","group":"student","split":"train","japanese":"彼女は学生である可能性がある。","english":"She is possibly a student.","labels":[]}
+{"id":"synthetic-24","group":"student","split":"train","japanese":"彼女は学生である可能性が高い。","english":"She is a student.","labels":["uncertainty"]}
+{"id":"synthetic-25","group":"student","split":"train","japanese":"彼女は学生である可能性が高い。","english":"She is probably a student.","labels":[]}
+{"id":"synthetic-26","group":"student","split":"train","japanese":"彼女は学生だ。","english":"She is not a student.","labels":["negation"]}
+{"id":"synthetic-27","group":"student","split":"train","japanese":"彼女は学生である可能性がある。","english":"She is not a student.","labels":["negation","uncertainty"]}
+{"id":"synthetic-28","group":"student","split":"train","japanese":"彼女は学生である可能性がある。","english":"She is possibly not a student.","labels":["negation"]}
+{"id":"synthetic-29","group":"student","split":"train","japanese":"彼女は学生である可能性が高い。","english":"She is not a student.","labels":["negation","uncertainty"]}
+{"id":"synthetic-30","group":"student","split":"train","japanese":"彼女は学生である可能性が高い。","english":"She is probably not a student.","labels":["negation"]}
+{"id":"synthetic-31","group":"student","split":"train","japanese":"彼女は学生ではない。","english":"She is a student.","labels":["negation"]}
+{"id":"synthetic-32","group":"student","split":"train","japanese":"彼女は学生ではない可能性がある。","english":"She is a student.","labels":["negation","uncertainty"]}
+{"id":"synthetic-33","group":"student","split":"train","japanese":"彼女は学生ではない可能性がある。","english":"She is possibly a student.","labels":["negation"]}
+{"id":"synthetic-34","group":"student","split":"train","japanese":"彼女は学生ではない可能性が高い。","english":"She is a student.","labels":["negation","uncertainty"]}
+{"id":"synthetic-35","group":"student","split":"train","japanese":"彼女は学生ではない可能性が高い。","english":"She is probably a student.","labels":["negation"]}
+{"id":"synthetic-36","group":"student","split":"train","japanese":"彼女は学生ではない。","english":"She is not a student.","labels":[]}
+{"id":"synthetic-37","group":"student","split":"train","japanese":"彼女は学生ではない可能性がある。","english":"She is not a student.","labels":["uncertainty"]}
+{"id":"synthetic-38","group":"student","split":"train","japanese":"彼女は学生ではない可能性がある。","english":"She is possibly not a student.","labels":[]}
+{"id":"synthetic-39","group":"student","split":"train","japanese":"彼女は学生ではない可能性が高い。","english":"She is not a student.","labels":["uncertainty"]}
+{"id":"synthetic-40","group":"student","split":"train","japanese":"彼女は学生ではない可能性が高い。","english":"She is probably not a student.","labels":[]}
+{"id":"synthetic-41","group":"safe","split":"train","japanese":"この場所は安全だ。","english":"This place is safe.","labels":[]}
+{"id":"synthetic-42","group":"safe","split":"train","japanese":"この場所は安全である可能性がある。","english":"This place is safe.","labels":["uncertainty"]}
+{"id":"synthetic-43","group":"safe","split":"train","japanese":"この場所は安全である可能性がある。","english":"This place is possibly safe.","labels":[]}
+{"id":"synthetic-44","group":"safe","split":"train","japanese":"この場所は安全である可能性が高い。","english":"This place is safe.","labels":["uncertainty"]}
+{"id":"synthetic-45","group":"safe","split":"train","japanese":"この場所は安全である可能性が高い。","english":"This place is probably safe.","labels":[]}
+{"id":"synthetic-46","group":"safe","split":"train","japanese":"この場所は安全だ。","english":"This place is not safe.","labels":["negation"]}
+{"id":"synthetic-47","group":"safe","split":"train","japanese":"この場所は安全である可能性がある。","english":"This place is not safe.","labels":["negation","uncertainty"]}
+{"id":"synthetic-48","group":"safe","split":"train","japanese":"この場所は安全である可能性がある。","english":"This place is possibly not safe.","labels":["negation"]}
+{"id":"synthetic-49","group":"safe","split":"train","japanese":"この場所は安全である可能性が高い。","english":"This place is not safe.","labels":["negation","uncertainty"]}
+{"id":"synthetic-50","group":"safe","split":"train","japanese":"この場所は安全である可能性が高い。","english":"This place is probably not safe.","labels":["negation"]}
+{"id":"synthetic-51","group":"safe","split":"train","japanese":"この場所は安全ではない。","english":"This place is safe.","labels":["negation"]}
+{"id":"synthetic-52","group":"safe","split":"train","japanese":"この場所は安全ではない可能性がある。","english":"This place is safe.","labels":["negation","uncertainty"]}
+{"id":"synthetic-53","group":"safe","split":"train","japanese":"この場所は安全ではない可能性がある。","english":"This place is possibly safe.","labels":["negation"]}
+{"id":"synthetic-54","group":"safe","split":"train","japanese":"この場所は安全ではない可能性が高い。","english":"This place is safe.","labels":["negation","uncertainty"]}
+{"id":"synthetic-55","group":"safe","split":"train","japanese":"この場所は安全ではない可能性が高い。","english":"This place is probably safe.","labels":["negation"]}
+{"id":"synthetic-56","group":"safe","split":"train","japanese":"この場所は安全ではない。","english":"This place is not safe.","labels":[]}
+{"id":"synthetic-57","group":"safe","split":"train","japanese":"この場所は安全ではない可能性がある。","english":"This place is not safe.","labels":["uncertainty"]}
+{"id":"synthetic-58","group":"safe","split":"train","japanese":"この場所は安全ではない可能性がある。","english":"This place is possibly not safe.","labels":[]}
+{"id":"synthetic-59","group":"safe","split":"train","japanese":"この場所は安全ではない可能性が高い。","english":"This place is not safe.","labels":["uncertainty"]}
+{"id":"synthetic-60","group":"safe","split":"train","japanese":"この場所は安全ではない可能性が高い。","english":"This place is probably not safe.","labels":[]}
+{"id":"synthetic-61","group":"necessary","split":"train","japanese":"それは必要だ。","english":"It is necessary.","labels":[]}
+{"id":"synthetic-62","group":"necessary","split":"train","japanese":"それは必要である可能性がある。","english":"It is necessary.","labels":["uncertainty"]}
+{"id":"synthetic-63","group":"necessary","split":"train","japanese":"それは必要である可能性がある。","english":"It is possibly necessary.","labels":[]}
+{"id":"synthetic-64","group":"necessary","split":"train","japanese":"それは必要である可能性が高い。","english":"It is necessary.","labels":["uncertainty"]}
+{"id":"synthetic-65","group":"necessary","split":"train","japanese":"それは必要である可能性が高い。","english":"It is probably necessary.","labels":[]}
+{"id":"synthetic-66","group":"necessary","split":"train","japanese":"それは必要だ。","english":"It is not necessary.","labels":["negation"]}
+{"id":"synthetic-67","group":"necessary","split":"train","japanese":"それは必要である可能性がある。","english":"It is not necessary.","labels":["negation","uncertainty"]}
+{"id":"synthetic-68","group":"necessary","split":"train","japanese":"それは必要である可能性がある。","english":"It is possibly not necessary.","labels":["negation"]}
+{"id":"synthetic-69","group":"necessary","split":"train","japanese":"それは必要である可能性が高い。","english":"It is not necessary.","labels":["negation","uncertainty"]}
+{"id":"synthetic-70","group":"necessary","split":"train","japanese":"それは必要である可能性が高い。","english":"It is probably not necessary.","labels":["negation"]}
+{"id":"synthetic-71","group":"necessary","split":"train","japanese":"それは必要ではない。","english":"It is necessary.","labels":["negation"]}
+{"id":"synthetic-72","group":"necessary","split":"train","japanese":"それは必要ではない可能性がある。","english":"It is necessary.","labels":["negation","uncertainty"]}
+{"id":"synthetic-73","group":"necessary","split":"train","japanese":"それは必要ではない可能性がある。","english":"It is possibly necessary.","labels":["negation"]}
+{"id":"synthetic-74","group":"necessary","split":"train","japanese":"それは必要ではない可能性が高い。","english":"It is necessary.","labels":["negation","uncertainty"]}
+{"id":"synthetic-75","group":"necessary","split":"train","japanese":"それは必要ではない可能性が高い。","english":"It is probably necessary.","labels":["negation"]}
+{"id":"synthetic-76","group":"necessary","split":"train","japanese":"それは必要ではない。","english":"It is not necessary.","labels":[]}
+{"id":"synthetic-77","group":"necessary","split":"train","japanese":"それは必要ではない可能性がある。","english":"It is not necessary.","labels":["uncertainty"]}
+{"id":"synthetic-78","group":"necessary","split":"train","japanese":"それは必要ではない可能性がある。","english":"It is possibly not necessary.","labels":[]}
+{"id":"synthetic-79","group":"necessary","split":"train","japanese":"それは必要ではない可能性が高い。","english":"It is not necessary.","labels":["uncertainty"]}
+{"id":"synthetic-80","group":"necessary","split":"train","japanese":"それは必要ではない可能性が高い。","english":"It is probably not necessary.","labels":[]}
+{"id":"synthetic-81","group":"doctor","split":"test","japanese":"彼は医者だ。","english":"He is a doctor.","labels":[]}
+{"id":"synthetic-82","group":"doctor","split":"test","japanese":"彼は医者である可能性がある。","english":"He is a doctor.","labels":["uncertainty"]}
+{"id":"synthetic-83","group":"doctor","split":"test","japanese":"彼は医者である可能性がある。","english":"He is possibly a doctor.","labels":[]}
+{"id":"synthetic-84","group":"doctor","split":"test","japanese":"彼は医者である可能性が高い。","english":"He is a doctor.","labels":["uncertainty"]}
+{"id":"synthetic-85","group":"doctor","split":"test","japanese":"彼は医者である可能性が高い。","english":"He is probably a doctor.","labels":[]}
+{"id":"synthetic-86","group":"doctor","split":"test","japanese":"彼は医者だ。","english":"He is not a doctor.","labels":["negation"]}
+{"id":"synthetic-87","group":"doctor","split":"test","japanese":"彼は医者である可能性がある。","english":"He is not a doctor.","labels":["negation","uncertainty"]}
+{"id":"synthetic-88","group":"doctor","split":"test","japanese":"彼は医者である可能性がある。","english":"He is possibly not a doctor.","labels":["negation"]}
+{"id":"synthetic-89","group":"doctor","split":"test","japanese":"彼は医者である可能性が高い。","english":"He is not a doctor.","labels":["negation","uncertainty"]}
+{"id":"synthetic-90","group":"doctor","split":"test","japanese":"彼は医者である可能性が高い。","english":"He is probably not a doctor.","labels":["negation"]}
+{"id":"synthetic-91","group":"doctor","split":"test","japanese":"彼は医者ではない。","english":"He is a doctor.","labels":["negation"]}
+{"id":"synthetic-92","group":"doctor","split":"test","japanese":"彼は医者ではない可能性がある。","english":"He is a doctor.","labels":["negation","uncertainty"]}
+{"id":"synthetic-93","group":"doctor","split":"test","japanese":"彼は医者ではない可能性がある。","english":"He is possibly a doctor.","labels":["negation"]}
+{"id":"synthetic-94","group":"doctor","split":"test","japanese":"彼は医者ではない可能性が高い。","english":"He is a doctor.","labels":["negation","uncertainty"]}
+{"id":"synthetic-95","group":"doctor","split":"test","japanese":"彼は医者ではない可能性が高い。","english":"He is probably a doctor.","labels":["negation"]}
+{"id":"synthetic-96","group":"doctor","split":"test","japanese":"彼は医者ではない。","english":"He is not a doctor.","labels":[]}
+{"id":"synthetic-97","group":"doctor","split":"test","japanese":"彼は医者ではない可能性がある。","english":"He is not a doctor.","labels":["uncertainty"]}
+{"id":"synthetic-98","group":"doctor","split":"test","japanese":"彼は医者ではない可能性がある。","english":"He is possibly not a doctor.","labels":[]}
+{"id":"synthetic-99","group":"doctor","split":"test","japanese":"彼は医者ではない可能性が高い。","english":"He is not a doctor.","labels":["uncertainty"]}
+{"id":"synthetic-100","group":"doctor","split":"test","japanese":"彼は医者ではない可能性が高い。","english":"He is probably not a doctor.","labels":[]}
+{"id":"synthetic-101","group":"true","split":"test","japanese":"その話は本当だ。","english":"The story is true.","labels":[]}
+{"id":"synthetic-102","group":"true","split":"test","japanese":"その話は本当である可能性がある。","english":"The story is true.","labels":["uncertainty"]}
+{"id":"synthetic-103","group":"true","split":"test","japanese":"その話は本当である可能性がある。","english":"The story is possibly true.","labels":[]}
+{"id":"synthetic-104","group":"true","split":"test","japanese":"その話は本当である可能性が高い。","english":"The story is true.","labels":["uncertainty"]}
+{"id":"synthetic-105","group":"true","split":"test","japanese":"その話は本当である可能性が高い。","english":"The story is probably true.","labels":[]}
+{"id":"synthetic-106","group":"true","split":"test","japanese":"その話は本当だ。","english":"The story is not true.","labels":["negation"]}
+{"id":"synthetic-107","group":"true","split":"test","japanese":"その話は本当である可能性がある。","english":"The story is not true.","labels":["negation","uncertainty"]}
+{"id":"synthetic-108","group":"true","split":"test","japanese":"その話は本当である可能性がある。","english":"The story is possibly not true.","labels":["negation"]}
+{"id":"synthetic-109","group":"true","split":"test","japanese":"その話は本当である可能性が高い。","english":"The story is not true.","labels":["negation","uncertainty"]}
+{"id":"synthetic-110","group":"true","split":"test","japanese":"その話は本当である可能性が高い。","english":"The story is probably not true.","labels":["negation"]}
+{"id":"synthetic-111","group":"true","split":"test","japanese":"その話は本当ではない。","english":"The story is true.","labels":["negation"]}
+{"id":"synthetic-112","group":"true","split":"test","japanese":"その話は本当ではない可能性がある。","english":"The story is true.","labels":["negation","uncertainty"]}
+{"id":"synthetic-113","group":"true","split":"test","japanese":"その話は本当ではない可能性がある。","english":"The story is possibly true.","labels":["negation"]}
+{"id":"synthetic-114","group":"true","split":"test","japanese":"その話は本当ではない可能性が高い。","english":"The story is true.","labels":["negation","uncertainty"]}
+{"id":"synthetic-115","group":"true","split":"test","japanese":"その話は本当ではない可能性が高い。","english":"The story is probably true.","labels":["negation"]}
+{"id":"synthetic-116","group":"true","split":"test","japanese":"その話は本当ではない。","english":"The story is not true.","labels":[]}
+{"id":"synthetic-117","group":"true","split":"test","japanese":"その話は本当ではない可能性がある。","english":"The story is not true.","labels":["uncertainty"]}
+{"id":"synthetic-118","group":"true","split":"test","japanese":"その話は本当ではない可能性がある。","english":"The story is possibly not true.","labels":[]}
+{"id":"synthetic-119","group":"true","split":"test","japanese":"その話は本当ではない可能性が高い。","english":"The story is not true.","labels":["uncertainty"]}
+{"id":"synthetic-120","group":"true","split":"test","japanese":"その話は本当ではない可能性が高い。","english":"The story is probably not true.","labels":[]}
+{"id":"synthetic-121","group":"rain","split":"train","japanese":"明日は雨が降るかもしれない。","english":"It might rain tomorrow.","labels":[]}
+{"id":"synthetic-122","group":"rain","split":"train","japanese":"明日は雨が降るかもしれない。","english":"It probably will rain tomorrow.","labels":["uncertainty"]}
+{"id":"synthetic-123","group":"rain","split":"train","japanese":"明日は雨が降るかもしれない。","english":"It will rain tomorrow.","labels":["uncertainty"]}
+{"id":"synthetic-124","group":"rain","split":"train","japanese":"明日は雨が降る可能性が高い。","english":"It might rain tomorrow.","labels":["uncertainty"]}
+{"id":"synthetic-125","group":"rain","split":"train","japanese":"明日は雨が降る可能性が高い。","english":"It probably will rain tomorrow.","labels":[]}
+{"id":"synthetic-126","group":"rain","split":"train","japanese":"明日は雨が降る可能性が高い。","english":"It will rain tomorrow.","labels":["uncertainty"]}
+{"id":"synthetic-127","group":"rain","split":"train","japanese":"明日は雨が降る。","english":"It might rain tomorrow.","labels":["uncertainty"]}
+{"id":"synthetic-128","group":"rain","split":"train","japanese":"明日は雨が降る。","english":"It probably will rain tomorrow.","labels":["uncertainty"]}
+{"id":"synthetic-129","group":"rain","split":"train","japanese":"明日は雨が降る。","english":"It will rain tomorrow.","labels":[]}
+{"id":"synthetic-130","group":"arrive","split":"train","japanese":"彼は到着するかもしれない。","english":"He might arrive.","labels":[]}
+{"id":"synthetic-131","group":"arrive","split":"train","japanese":"彼は到着するかもしれない。","english":"He probably will arrive.","labels":["uncertainty"]}
+{"id":"synthetic-132","group":"arrive","split":"train","japanese":"彼は到着するかもしれない。","english":"He will arrive.","labels":["uncertainty"]}
+{"id":"synthetic-133","group":"arrive","split":"train","japanese":"彼は到着する可能性が高い。","english":"He might arrive.","labels":["uncertainty"]}
+{"id":"synthetic-134","group":"arrive","split":"train","japanese":"彼は到着する可能性が高い。","english":"He probably will arrive.","labels":[]}
+{"id":"synthetic-135","group":"arrive","split":"train","japanese":"彼は到着する可能性が高い。","english":"He will arrive.","labels":["uncertainty"]}
+{"id":"synthetic-136","group":"arrive","split":"train","japanese":"彼は到着する。","english":"He might arrive.","labels":["uncertainty"]}
+{"id":"synthetic-137","group":"arrive","split":"train","japanese":"彼は到着する。","english":"He probably will arrive.","labels":["uncertainty"]}
+{"id":"synthetic-138","group":"arrive","split":"train","japanese":"彼は到着する。","english":"He will arrive.","labels":[]}
+{"id":"synthetic-139","group":"close","split":"train","japanese":"店は閉店するかもしれない。","english":"The shop might close.","labels":[]}
+{"id":"synthetic-140","group":"close","split":"train","japanese":"店は閉店するかもしれない。","english":"The shop probably will close.","labels":["uncertainty"]}
+{"id":"synthetic-141","group":"close","split":"train","japanese":"店は閉店するかもしれない。","english":"The shop will close.","labels":["uncertainty"]}
+{"id":"synthetic-142","group":"close","split":"train","japanese":"店は閉店する可能性が高い。","english":"The shop might close.","labels":["uncertainty"]}
+{"id":"synthetic-143","group":"close","split":"train","japanese":"店は閉店する可能性が高い。","english":"The shop probably will close.","labels":[]}
+{"id":"synthetic-144","group":"close","split":"train","japanese":"店は閉店する可能性が高い。","english":"The shop will close.","labels":["uncertainty"]}
+{"id":"synthetic-145","group":"close","split":"train","japanese":"店は閉店する。","english":"The shop might close.","labels":["uncertainty"]}
+{"id":"synthetic-146","group":"close","split":"train","japanese":"店は閉店する。","english":"The shop probably will close.","labels":["uncertainty"]}
+{"id":"synthetic-147","group":"close","split":"train","japanese":"店は閉店する。","english":"The shop will close.","labels":[]}
+{"id":"synthetic-148","group":"snow","split":"test","japanese":"今夜は雪が降るかもしれない。","english":"It might snow tonight.","labels":[]}
+{"id":"synthetic-149","group":"snow","split":"test","japanese":"今夜は雪が降るかもしれない。","english":"It probably will snow tonight.","labels":["uncertainty"]}
+{"id":"synthetic-150","group":"snow","split":"test","japanese":"今夜は雪が降るかもしれない。","english":"It will snow tonight.","labels":["uncertainty"]}
+{"id":"synthetic-151","group":"snow","split":"test","japanese":"今夜は雪が降る可能性が高い。","english":"It might snow tonight.","labels":["uncertainty"]}
+{"id":"synthetic-152","group":"snow","split":"test","japanese":"今夜は雪が降る可能性が高い。","english":"It probably will snow tonight.","labels":[]}
+{"id":"synthetic-153","group":"snow","split":"test","japanese":"今夜は雪が降る可能性が高い。","english":"It will snow tonight.","labels":["uncertainty"]}
+{"id":"synthetic-154","group":"snow","split":"test","japanese":"今夜は雪が降る。","english":"It might snow tonight.","labels":["uncertainty"]}
+{"id":"synthetic-155","group":"snow","split":"test","japanese":"今夜は雪が降る。","english":"It probably will snow tonight.","labels":["uncertainty"]}
+{"id":"synthetic-156","group":"snow","split":"test","japanese":"今夜は雪が降る。","english":"It will snow tonight.","labels":[]}
+{"id":"synthetic-157","group":"depart","split":"test","japanese":"電車は出発するかもしれない。","english":"The train might depart.","labels":[]}
+{"id":"synthetic-158","group":"depart","split":"test","japanese":"電車は出発するかもしれない。","english":"The train probably will depart.","labels":["uncertainty"]}
+{"id":"synthetic-159","group":"depart","split":"test","japanese":"電車は出発するかもしれない。","english":"The train will depart.","labels":["uncertainty"]}
+{"id":"synthetic-160","group":"depart","split":"test","japanese":"電車は出発する可能性が高い。","english":"The train might depart.","labels":["uncertainty"]}
+{"id":"synthetic-161","group":"depart","split":"test","japanese":"電車は出発する可能性が高い。","english":"The train probably will depart.","labels":[]}
+{"id":"synthetic-162","group":"depart","split":"test","japanese":"電車は出発する可能性が高い。","english":"The train will depart.","labels":["uncertainty"]}
+{"id":"synthetic-163","group":"depart","split":"test","japanese":"電車は出発する。","english":"The train might depart.","labels":["uncertainty"]}
+{"id":"synthetic-164","group":"depart","split":"test","japanese":"電車は出発する。","english":"The train probably will depart.","labels":["uncertainty"]}
+{"id":"synthetic-165","group":"depart","split":"test","japanese":"電車は出発する。","english":"The train will depart.","labels":[]}
+{"id":"synthetic-166","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"at least 3 people attended.","labels":[]}
+{"id":"synthetic-167","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"at least 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-168","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"at most 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-169","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"at most 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-170","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"fewer than 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-171","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"fewer than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-172","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"exactly 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-173","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"exactly 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-174","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"about 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-175","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"about 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-176","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"more than 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-177","group":"count-train","split":"train","japanese":"少なくとも3人が参加した。","english":"more than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-178","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"at least 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-179","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"at least 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-180","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"at most 3 people attended.","labels":[]}
+{"id":"synthetic-181","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"at most 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-182","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"fewer than 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-183","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"fewer than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-184","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"exactly 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-185","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"exactly 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-186","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"about 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-187","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"about 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-188","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"more than 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-189","group":"count-train","split":"train","japanese":"3人以下が参加した。","english":"more than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-190","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"at least 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-191","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"at least 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-192","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"at most 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-193","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"at most 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-194","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"fewer than 3 people attended.","labels":[]}
+{"id":"synthetic-195","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"fewer than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-196","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"exactly 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-197","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"exactly 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-198","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"about 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-199","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"about 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-200","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"more than 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-201","group":"count-train","split":"train","japanese":"3人未満が参加した。","english":"more than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-202","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"at least 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-203","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"at least 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-204","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"at most 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-205","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"at most 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-206","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"fewer than 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-207","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"fewer than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-208","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"exactly 3 people attended.","labels":[]}
+{"id":"synthetic-209","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"exactly 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-210","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"about 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-211","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"about 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-212","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"more than 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-213","group":"count-train","split":"train","japanese":"ちょうど3人が参加した。","english":"more than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-214","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"at least 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-215","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"at least 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-216","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"at most 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-217","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"at most 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-218","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"fewer than 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-219","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"fewer than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-220","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"exactly 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-221","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"exactly 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-222","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"about 3 people attended.","labels":[]}
+{"id":"synthetic-223","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"about 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-224","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"more than 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-225","group":"count-train","split":"train","japanese":"約3人が参加した。","english":"more than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-226","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"at least 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-227","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"at least 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-228","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"at most 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-229","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"at most 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-230","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"fewer than 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-231","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"fewer than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-232","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"exactly 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-233","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"exactly 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-234","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"about 3 people attended.","labels":["quantity"]}
+{"id":"synthetic-235","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"about 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-236","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"more than 3 people attended.","labels":[]}
+{"id":"synthetic-237","group":"count-train","split":"train","japanese":"3人超が参加した。","english":"more than 5 people attended.","labels":["quantity"]}
+{"id":"synthetic-238","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"at least 10 people attended.","labels":[]}
+{"id":"synthetic-239","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"at least 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-240","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"at most 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-241","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"at most 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-242","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"fewer than 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-243","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"fewer than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-244","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"exactly 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-245","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"exactly 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-246","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"about 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-247","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"about 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-248","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"more than 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-249","group":"count-train","split":"train","japanese":"少なくとも10人が参加した。","english":"more than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-250","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"at least 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-251","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"at least 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-252","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"at most 10 people attended.","labels":[]}
+{"id":"synthetic-253","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"at most 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-254","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"fewer than 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-255","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"fewer than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-256","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"exactly 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-257","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"exactly 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-258","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"about 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-259","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"about 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-260","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"more than 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-261","group":"count-train","split":"train","japanese":"10人以下が参加した。","english":"more than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-262","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"at least 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-263","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"at least 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-264","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"at most 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-265","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"at most 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-266","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"fewer than 10 people attended.","labels":[]}
+{"id":"synthetic-267","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"fewer than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-268","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"exactly 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-269","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"exactly 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-270","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"about 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-271","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"about 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-272","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"more than 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-273","group":"count-train","split":"train","japanese":"10人未満が参加した。","english":"more than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-274","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"at least 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-275","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"at least 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-276","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"at most 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-277","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"at most 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-278","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"fewer than 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-279","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"fewer than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-280","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"exactly 10 people attended.","labels":[]}
+{"id":"synthetic-281","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"exactly 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-282","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"about 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-283","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"about 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-284","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"more than 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-285","group":"count-train","split":"train","japanese":"ちょうど10人が参加した。","english":"more than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-286","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"at least 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-287","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"at least 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-288","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"at most 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-289","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"at most 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-290","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"fewer than 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-291","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"fewer than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-292","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"exactly 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-293","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"exactly 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-294","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"about 10 people attended.","labels":[]}
+{"id":"synthetic-295","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"about 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-296","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"more than 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-297","group":"count-train","split":"train","japanese":"約10人が参加した。","english":"more than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-298","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"at least 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-299","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"at least 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-300","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"at most 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-301","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"at most 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-302","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"fewer than 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-303","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"fewer than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-304","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"exactly 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-305","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"exactly 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-306","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"about 10 people attended.","labels":["quantity"]}
+{"id":"synthetic-307","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"about 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-308","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"more than 10 people attended.","labels":[]}
+{"id":"synthetic-309","group":"count-train","split":"train","japanese":"10人超が参加した。","english":"more than 12 people attended.","labels":["quantity"]}
+{"id":"synthetic-310","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"at least 25 people attended.","labels":[]}
+{"id":"synthetic-311","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"at least 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-312","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"at most 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-313","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"at most 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-314","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"fewer than 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-315","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"fewer than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-316","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"exactly 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-317","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"exactly 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-318","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"about 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-319","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"about 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-320","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"more than 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-321","group":"count-train","split":"train","japanese":"少なくとも25人が参加した。","english":"more than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-322","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"at least 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-323","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"at least 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-324","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"at most 25 people attended.","labels":[]}
+{"id":"synthetic-325","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"at most 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-326","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"fewer than 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-327","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"fewer than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-328","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"exactly 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-329","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"exactly 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-330","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"about 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-331","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"about 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-332","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"more than 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-333","group":"count-train","split":"train","japanese":"25人以下が参加した。","english":"more than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-334","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"at least 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-335","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"at least 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-336","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"at most 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-337","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"at most 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-338","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"fewer than 25 people attended.","labels":[]}
+{"id":"synthetic-339","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"fewer than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-340","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"exactly 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-341","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"exactly 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-342","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"about 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-343","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"about 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-344","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"more than 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-345","group":"count-train","split":"train","japanese":"25人未満が参加した。","english":"more than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-346","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"at least 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-347","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"at least 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-348","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"at most 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-349","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"at most 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-350","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"fewer than 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-351","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"fewer than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-352","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"exactly 25 people attended.","labels":[]}
+{"id":"synthetic-353","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"exactly 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-354","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"about 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-355","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"about 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-356","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"more than 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-357","group":"count-train","split":"train","japanese":"ちょうど25人が参加した。","english":"more than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-358","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"at least 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-359","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"at least 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-360","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"at most 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-361","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"at most 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-362","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"fewer than 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-363","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"fewer than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-364","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"exactly 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-365","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"exactly 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-366","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"about 25 people attended.","labels":[]}
+{"id":"synthetic-367","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"about 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-368","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"more than 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-369","group":"count-train","split":"train","japanese":"約25人が参加した。","english":"more than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-370","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"at least 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-371","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"at least 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-372","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"at most 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-373","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"at most 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-374","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"fewer than 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-375","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"fewer than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-376","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"exactly 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-377","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"exactly 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-378","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"about 25 people attended.","labels":["quantity"]}
+{"id":"synthetic-379","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"about 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-380","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"more than 25 people attended.","labels":[]}
+{"id":"synthetic-381","group":"count-train","split":"train","japanese":"25人超が参加した。","english":"more than 27 people attended.","labels":["quantity"]}
+{"id":"synthetic-382","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"at least 100 people attended.","labels":[]}
+{"id":"synthetic-383","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"at least 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-384","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"at most 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-385","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"at most 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-386","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"fewer than 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-387","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"fewer than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-388","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"exactly 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-389","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"exactly 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-390","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"about 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-391","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"about 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-392","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"more than 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-393","group":"count-train","split":"train","japanese":"少なくとも100人が参加した。","english":"more than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-394","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"at least 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-395","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"at least 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-396","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"at most 100 people attended.","labels":[]}
+{"id":"synthetic-397","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"at most 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-398","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"fewer than 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-399","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"fewer than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-400","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"exactly 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-401","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"exactly 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-402","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"about 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-403","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"about 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-404","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"more than 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-405","group":"count-train","split":"train","japanese":"100人以下が参加した。","english":"more than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-406","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"at least 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-407","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"at least 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-408","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"at most 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-409","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"at most 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-410","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"fewer than 100 people attended.","labels":[]}
+{"id":"synthetic-411","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"fewer than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-412","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"exactly 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-413","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"exactly 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-414","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"about 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-415","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"about 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-416","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"more than 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-417","group":"count-train","split":"train","japanese":"100人未満が参加した。","english":"more than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-418","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"at least 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-419","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"at least 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-420","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"at most 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-421","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"at most 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-422","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"fewer than 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-423","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"fewer than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-424","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"exactly 100 people attended.","labels":[]}
+{"id":"synthetic-425","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"exactly 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-426","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"about 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-427","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"about 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-428","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"more than 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-429","group":"count-train","split":"train","japanese":"ちょうど100人が参加した。","english":"more than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-430","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"at least 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-431","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"at least 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-432","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"at most 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-433","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"at most 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-434","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"fewer than 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-435","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"fewer than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-436","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"exactly 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-437","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"exactly 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-438","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"about 100 people attended.","labels":[]}
+{"id":"synthetic-439","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"about 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-440","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"more than 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-441","group":"count-train","split":"train","japanese":"約100人が参加した。","english":"more than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-442","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"at least 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-443","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"at least 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-444","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"at most 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-445","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"at most 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-446","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"fewer than 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-447","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"fewer than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-448","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"exactly 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-449","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"exactly 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-450","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"about 100 people attended.","labels":["quantity"]}
+{"id":"synthetic-451","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"about 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-452","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"more than 100 people attended.","labels":[]}
+{"id":"synthetic-453","group":"count-train","split":"train","japanese":"100人超が参加した。","english":"more than 102 people attended.","labels":["quantity"]}
+{"id":"synthetic-454","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"at least 7 people attended.","labels":[]}
+{"id":"synthetic-455","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"at least 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-456","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"at most 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-457","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"at most 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-458","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"fewer than 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-459","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"fewer than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-460","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"exactly 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-461","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"exactly 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-462","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"about 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-463","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"about 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-464","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"more than 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-465","group":"count-test","split":"test","japanese":"少なくとも7人が参加した。","english":"more than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-466","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"at least 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-467","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"at least 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-468","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"at most 7 people attended.","labels":[]}
+{"id":"synthetic-469","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"at most 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-470","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"fewer than 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-471","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"fewer than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-472","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"exactly 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-473","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"exactly 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-474","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"about 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-475","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"about 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-476","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"more than 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-477","group":"count-test","split":"test","japanese":"7人以下が参加した。","english":"more than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-478","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"at least 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-479","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"at least 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-480","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"at most 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-481","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"at most 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-482","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"fewer than 7 people attended.","labels":[]}
+{"id":"synthetic-483","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"fewer than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-484","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"exactly 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-485","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"exactly 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-486","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"about 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-487","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"about 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-488","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"more than 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-489","group":"count-test","split":"test","japanese":"7人未満が参加した。","english":"more than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-490","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"at least 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-491","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"at least 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-492","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"at most 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-493","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"at most 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-494","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"fewer than 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-495","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"fewer than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-496","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"exactly 7 people attended.","labels":[]}
+{"id":"synthetic-497","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"exactly 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-498","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"about 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-499","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"about 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-500","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"more than 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-501","group":"count-test","split":"test","japanese":"ちょうど7人が参加した。","english":"more than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-502","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"at least 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-503","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"at least 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-504","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"at most 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-505","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"at most 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-506","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"fewer than 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-507","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"fewer than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-508","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"exactly 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-509","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"exactly 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-510","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"about 7 people attended.","labels":[]}
+{"id":"synthetic-511","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"about 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-512","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"more than 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-513","group":"count-test","split":"test","japanese":"約7人が参加した。","english":"more than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-514","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"at least 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-515","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"at least 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-516","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"at most 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-517","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"at most 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-518","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"fewer than 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-519","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"fewer than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-520","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"exactly 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-521","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"exactly 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-522","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"about 7 people attended.","labels":["quantity"]}
+{"id":"synthetic-523","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"about 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-524","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"more than 7 people attended.","labels":[]}
+{"id":"synthetic-525","group":"count-test","split":"test","japanese":"7人超が参加した。","english":"more than 9 people attended.","labels":["quantity"]}
+{"id":"synthetic-526","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"at least 42 people attended.","labels":[]}
+{"id":"synthetic-527","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"at least 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-528","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"at most 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-529","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"at most 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-530","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"fewer than 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-531","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"fewer than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-532","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"exactly 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-533","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"exactly 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-534","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"about 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-535","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"about 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-536","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"more than 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-537","group":"count-test","split":"test","japanese":"少なくとも42人が参加した。","english":"more than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-538","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"at least 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-539","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"at least 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-540","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"at most 42 people attended.","labels":[]}
+{"id":"synthetic-541","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"at most 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-542","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"fewer than 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-543","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"fewer than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-544","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"exactly 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-545","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"exactly 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-546","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"about 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-547","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"about 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-548","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"more than 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-549","group":"count-test","split":"test","japanese":"42人以下が参加した。","english":"more than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-550","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"at least 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-551","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"at least 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-552","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"at most 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-553","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"at most 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-554","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"fewer than 42 people attended.","labels":[]}
+{"id":"synthetic-555","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"fewer than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-556","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"exactly 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-557","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"exactly 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-558","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"about 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-559","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"about 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-560","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"more than 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-561","group":"count-test","split":"test","japanese":"42人未満が参加した。","english":"more than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-562","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"at least 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-563","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"at least 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-564","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"at most 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-565","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"at most 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-566","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"fewer than 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-567","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"fewer than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-568","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"exactly 42 people attended.","labels":[]}
+{"id":"synthetic-569","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"exactly 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-570","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"about 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-571","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"about 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-572","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"more than 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-573","group":"count-test","split":"test","japanese":"ちょうど42人が参加した。","english":"more than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-574","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"at least 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-575","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"at least 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-576","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"at most 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-577","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"at most 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-578","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"fewer than 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-579","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"fewer than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-580","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"exactly 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-581","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"exactly 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-582","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"about 42 people attended.","labels":[]}
+{"id":"synthetic-583","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"about 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-584","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"more than 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-585","group":"count-test","split":"test","japanese":"約42人が参加した。","english":"more than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-586","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"at least 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-587","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"at least 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-588","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"at most 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-589","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"at most 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-590","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"fewer than 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-591","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"fewer than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-592","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"exactly 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-593","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"exactly 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-594","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"about 42 people attended.","labels":["quantity"]}
+{"id":"synthetic-595","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"about 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-596","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"more than 42 people attended.","labels":[]}
+{"id":"synthetic-597","group":"count-test","split":"test","japanese":"42人超が参加した。","english":"more than 44 people attended.","labels":["quantity"]}
+{"id":"synthetic-598","group":"roles-Taro","split":"train","japanese":"太郎が花子を助けた。","english":"Taro helped Hanako.","labels":[]}
+{"id":"synthetic-599","group":"roles-Taro","split":"train","japanese":"太郎が花子を助けた。","english":"Hanako helped Taro.","labels":["agent"]}
+{"id":"synthetic-600","group":"roles-Taro","split":"train","japanese":"太郎が花子を押した。","english":"Taro pushed Hanako.","labels":[]}
+{"id":"synthetic-601","group":"roles-Taro","split":"train","japanese":"太郎が花子を押した。","english":"Hanako pushed Taro.","labels":["agent"]}
+{"id":"synthetic-602","group":"roles-Taro","split":"train","japanese":"太郎が花子を呼びました。","english":"Taro called Hanako.","labels":[]}
+{"id":"synthetic-603","group":"roles-Taro","split":"train","japanese":"太郎が花子を呼びました。","english":"Hanako called Taro.","labels":["agent"]}
+{"id":"synthetic-604","group":"roles-Taro","split":"train","japanese":"太郎が花子を見た。","english":"Taro saw Hanako.","labels":[]}
+{"id":"synthetic-605","group":"roles-Taro","split":"train","japanese":"太郎が花子を見た。","english":"Hanako saw Taro.","labels":["agent"]}
+{"id":"synthetic-606","group":"roles-Alice","split":"train","japanese":"アリスがボブを助けた。","english":"Alice helped Bob.","labels":[]}
+{"id":"synthetic-607","group":"roles-Alice","split":"train","japanese":"アリスがボブを助けた。","english":"Bob helped Alice.","labels":["agent"]}
+{"id":"synthetic-608","group":"roles-Alice","split":"train","japanese":"アリスがボブを押した。","english":"Alice pushed Bob.","labels":[]}
+{"id":"synthetic-609","group":"roles-Alice","split":"train","japanese":"アリスがボブを押した。","english":"Bob pushed Alice.","labels":["agent"]}
+{"id":"synthetic-610","group":"roles-Alice","split":"train","japanese":"アリスがボブを呼びました。","english":"Alice called Bob.","labels":[]}
+{"id":"synthetic-611","group":"roles-Alice","split":"train","japanese":"アリスがボブを呼びました。","english":"Bob called Alice.","labels":["agent"]}
+{"id":"synthetic-612","group":"roles-Alice","split":"train","japanese":"アリスがボブを見た。","english":"Alice saw Bob.","labels":[]}
+{"id":"synthetic-613","group":"roles-Alice","split":"train","japanese":"アリスがボブを見た。","english":"Bob saw Alice.","labels":["agent"]}
+{"id":"synthetic-614","group":"roles-Ken","split":"test","japanese":"健が由美を助けた。","english":"Ken helped Yumi.","labels":[]}
+{"id":"synthetic-615","group":"roles-Ken","split":"test","japanese":"健が由美を助けた。","english":"Yumi helped Ken.","labels":["agent"]}
+{"id":"synthetic-616","group":"roles-Ken","split":"test","japanese":"健が由美を押した。","english":"Ken pushed Yumi.","labels":[]}
+{"id":"synthetic-617","group":"roles-Ken","split":"test","japanese":"健が由美を押した。","english":"Yumi pushed Ken.","labels":["agent"]}
+{"id":"synthetic-618","group":"roles-Ken","split":"test","japanese":"健が由美を呼びました。","english":"Ken called Yumi.","labels":[]}
+{"id":"synthetic-619","group":"roles-Ken","split":"test","japanese":"健が由美を呼びました。","english":"Yumi called Ken.","labels":["agent"]}
+{"id":"synthetic-620","group":"roles-Ken","split":"test","japanese":"健が由美を見た。","english":"Ken saw Yumi.","labels":[]}
+{"id":"synthetic-621","group":"roles-Ken","split":"test","japanese":"健が由美を見た。","english":"Yumi saw Ken.","labels":["agent"]}

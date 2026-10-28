@@ -1,0 +1,248 @@
+{
+  "status": "Post-hoc, authored, not independently verified; not a new final benchmark. No tuning on these results.",
+  "binary_accuracy": 0.55,
+  "rows": [
+    {
+      "id": "0",
+      "group": "paraphrase-1",
+      "japanese": "会議は雨のため中止になった。",
+      "english": "Rain forced the cancellation of the meeting.",
+      "altered": 0,
+      "probabilityAltered": 0.5539108514785767,
+      "verdict": "uncertain",
+      "findings": []
+    },
+    {
+      "id": "1",
+      "group": "paraphrase-1",
+      "japanese": "会議が中止になったため、雨が降った。",
+      "english": "Rain forced the cancellation of the meeting.",
+      "altered": 1,
+      "probabilityAltered": 0.6186255216598511,
+      "verdict": "uncertain",
+      "findings": []
+    },
+    {
+      "id": "2",
+      "group": "omitted-1",
+      "japanese": "昨日、駅で財布をなくした。",
+      "english": "A wallet was lost at the station yesterday.",
+      "altered": 0,
+      "probabilityAltered": 0.3771863579750061,
+      "verdict": "meaning_preserved",
+      "findings": []
+    },
+    {
+      "id": "3",
+      "group": "omitted-1",
+      "japanese": "昨日、駅で財布をなくした。",
+      "english": "Hanako deliberately stole a wallet yesterday.",
+      "altered": 1,
+      "probabilityAltered": 0.4945770800113678,
+      "verdict": "uncertain",
+      "findings": [
+        "other"
+      ]
+    },
+    {
+      "id": "4",
+      "group": "conditional-1",
+      "japanese": "鍵を返さなければ、入館できません。",
+      "english": "You cannot enter unless you return the key.",
+      "altered": 0,
+      "probabilityAltered": 0.1777457743883133,
+      "verdict": "meaning_preserved",
+      "findings": []
+    },
+    {
+      "id": "5",
+      "group": "conditional-1",
+      "japanese": "鍵を返さなければ、入館できません。",
+      "english": "You can enter without returning the key.",
+      "altered": 1,
+      "probabilityAltered": 0.16504916548728943,
+      "verdict": "meaning_preserved",
+      "findings": []
+    },
+    {
+      "id": "6",
+      "group": "passive-1",
+      "japanese": "美咲は健に招待された。",
+      "english": "Ken invited Misaki.",
+      "altered": 0,
+      "probabilityAltered": 0.722154438495636,
+      "verdict": "uncertain",
+      "findings": [
+        "agent"
+      ]
+    },
+    {
+      "id": "7",
+      "group": "passive-1",
+      "japanese": "美咲は健に招待された。",
+      "english": "Misaki invited Ken.",
+      "altered": 1,
+      "probabilityAltered": 0.7284878492355347,
+      "verdict": "uncertain",
+      "findings": [
+        "agent"
+      ]
+    },
+    {
+      "id": "8",
+      "group": "passive-2",
+      "japanese": "直子は修に招待された。",
+      "english": "Osamu invited Naoko.",
+      "altered": 0,
+      "probabilityAltered": 0.7372286915779114,
+      "verdict": "uncertain",
+      "findings": [
+        "agent"
+      ]
+    },
+    {
+      "id": "9",
+      "group": "passive-2",
+      "japanese": "直子は修に招待された。",
+      "english": "Naoko invited Osamu.",
+      "altered": 1,
+      "probabilityAltered": 0.7270241975784302,
+      "verdict": "uncertain",
+      "findings": [
+        "agent"
+      ]
+    },
+    {
+      "id": "10",
+      "group": "number-1",
+      "japanese": "容器には約250ミリリットル入る。",
+      "english": "The container holds roughly 250 milliliters.",
+      "altered": 0,
+      "probabilityAltered": 0.6926610469818115,
+      "verdict": "uncertain",
+      "findings": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "11",
+      "group": "number-1",
+      "japanese": "容器には約250ミリリットル入る。",
+      "english": "The container holds exactly 250 liters.",
+      "altered": 1,
+      "probabilityAltered": 0.6931448578834534,
+      "verdict": "uncertain",
+      "findings": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "12",
+      "group": "number-2",
+      "japanese": "容器には約730ミリリットル入る。",
+      "english": "The container holds roughly 730 milliliters.",
+      "altered": 0,
+      "probabilityAltered": 0.6774879693984985,
+      "verdict": "uncertain",
+      "findings": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "13",
+      "group": "number-2",
+      "japanese": "容器には約730ミリリットル入る。",
+      "english": "The container holds exactly 730 liters.",
+      "altered": 1,
+      "probabilityAltered": 0.6726345419883728,
+      "verdict": "uncertain",
+      "findings": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "14",
+      "group": "scope-new",
+      "japanese": "説明を聞いた人が全員理解したとは限らない。",
+      "english": "Some listeners may not have understood the explanation.",
+      "altered": 0,
+      "probabilityAltered": 0.48858678340911865,
+      "verdict": "meaning_preserved",
+      "findings": []
+    },
+    {
+      "id": "15",
+      "group": "scope-new",
+      "japanese": "説明を聞いた人が全員理解したとは限らない。",
+      "english": "Nobody who listened understood the explanation.",
+      "altered": 1,
+      "probabilityAltered": 0.5735447406768799,
+      "verdict": "uncertain",
+      "findings": [
+        "negation"
+      ]
+    },
+    {
+      "id": "16",
+      "group": "permission",
+      "japanese": "ここでは写真を撮ってもかまいません。",
+      "english": "Taking photographs here is permitted.",
+      "altered": 0,
+      "probabilityAltered": 0.1892031580209732,
+      "verdict": "meaning_preserved",
+      "findings": []
+    },
+    {
+      "id": "17",
+      "group": "permission",
+      "japanese": "ここでは写真を撮ってもかまいません。",
+      "english": "Photography is prohibited here.",
+      "altered": 1,
+      "probabilityAltered": 0.24381442368030548,
+      "verdict": "meaning_preserved",
+      "findings": []
+    },
+    {
+      "id": "18",
+      "group": "entity",
+      "japanese": "荷物は大阪ではなく京都に届いた。",
+      "english": "The parcel arrived in Kyoto rather than Osaka.",
+      "altered": 0,
+      "probabilityAltered": 0.5066313743591309,
+      "verdict": "uncertain",
+      "findings": []
+    },
+    {
+      "id": "19",
+      "group": "entity",
+      "japanese": "荷物は大阪ではなく京都に届いた。",
+      "english": "The parcel arrived in Osaka rather than Kyoto.",
+      "altered": 1,
+      "probabilityAltered": 0.5046321153640747,
+      "verdict": "uncertain",
+      "findings": []
+    }
+  ],
+  "invariance": [
+    {
+      "test": "name substitution aligned",
+      "absolute_probability_change": 0.01507425308227539,
+      "binary_label_changed": false
+    },
+    {
+      "test": "name substitution reversed",
+      "absolute_probability_change": 0.0014636516571044922,
+      "binary_label_changed": false
+    },
+    {
+      "test": "number substitution aligned",
+      "absolute_probability_change": 0.015173077583312988,
+      "binary_label_changed": false
+    },
+    {
+      "test": "number substitution distorted",
+      "absolute_probability_change": 0.020510315895080566,
+      "binary_label_changed": false
+    }
+  ]
+}

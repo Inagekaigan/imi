@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 2,
+  "name": "Imi / XLM-R",
+  "version": "0.2.0",
+  "checkpoint": "ordinary-seed29",
+  "architecture": "XLM-RoBERTa base, top four encoder layers fine-tuned; binary, multi-label and error-span heads. Variant: ordinary",
+  "labels": [
+    "negation",
+    "uncertainty",
+    "quantity",
+    "agent",
+    "temporal",
+    "conditional",
+    "entity_terminology",
+    "omission",
+    "addition",
+    "other"
+  ],
+  "titles": [
+    "Negation / scope",
+    "Certainty / modality",
+    "Quantity / unit",
+    "Actor / recipient",
+    "Time / deadline",
+    "Conditional meaning",
+    "Entity / terminology",
+    "Missing information",
+    "Added information",
+    "Other semantic change"
+  ],
+  "maxTokens": 192,
+  "temperature": 1.3331092474202948,
+  "thresholds": {
+    "altered": 1.01,
+    "preserved": 0.49
+  },
+  "calibrationWarning": "Small mixed-domain calibration set. Threshold precision is empirical, not a guarantee on new domains.",
+  "training": "MTPEdocs-MQM human annotations + authored contrastive data",
+  "license": "Research use: MTPEdocs-MQM annotations are CC BY-NC-SA 4.0; pretrained XLM-R is MIT. See research/DATA_LICENSES.md.",
+  "localOnly": true,
+  "modelFile": "model.onnx",
+  "quantization": {
+    "weightType": "float32",
+    "operators": [],
+    "validationMaxLogitDifference": 1.4781951904296875e-05,
+    "medianCpuMs": 61.85389999882318,
+    "rejectedTrials": {
+      "uint8_matmul_gather_max_drift": 2.184455394744873,
+      "uint8_matmul_max_drift": 1.931570053100586
+    }
+  },
+  "files": {
+    "model.onnx": {
+      "bytes": 1112402171,
+      "sha256": "5d3d888c98775baff0abef0d312c4cd8c92343e4268f7f0fef08c1643b8926b7"
+    },
+    "tokenizer.json": {
+      "bytes": 9096718,
+      "sha256": "a898ea75433890f6610f4e470b8ebeb0c21dce5c8dd61f892eb09eb5919d2e2c"
+    }
+  },
+  "trainingMetadata": {
+    "config": {
+      "model": "research/models/xlm-roberta-base",
+      "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "max_length": 192,
+      "batch_size": 4,
+      "gradient_accumulation": 4,
+      "epochs": 3,
+      "learning_rate": 2e-05,
+      "head_learning_rate": 0.0002,
+      "weight_decay": 0.01,
+      "freeze_embeddings": true,
+      "train_encoder_layers": 4,
+      "span_loss_weight": 0.25,
+      "scope_loss_weight": 0.25,
+      "calibration_precision_target": 0.9,
+      "calibration_min_support": 10,
+      "bootstrap_samples": 1000,
+      "notes": "Memory-conscious pilot: train the top four real XLM-R encoder layers, all prediction heads, and keep lower layers frozen. Report this explicitly rather than claiming full-model fine-tuning."
+    },
+    "variant": "ordinary",
+    "seed": 29,
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+    "trainable_parameters": 28947471,
+    "total_parameters": 278049039,
+    "train_rows": 1348,
+    "validation_rows": 410,
+    "long_train_excluded": [],
+    "long_validation_excluded": [
+      "mqm-JaEn_01_TexTra-014-0075",
+      "mqm-JaEn_02_Google-014-0075"
+    ],
+    "dataset_report_sha256": "4ea707503a3a46190012996e03bf807ea1b77208f9a34257824c1c57dc522a2b",
+    "pretrained_revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+    "training_seconds": 66.05883140000515,
+    "best_validation_binary_f1": 0.7772511848341233,
+    "peak_gpu_bytes": 1676476928
+  },
+  "calibrationMetrics": {
+    "n": 201,
+    "binary": {
+      "precision": 0.7288135593220338,
+      "recall": 0.9347826086956522,
+      "f1": 0.819047619047619,
+      "accuracy": 0.8109452736318408,
+      "confusion": {
+        "tn": 77,
+        "fp": 32,
+        "fn": 6,
+        "tp": 86
+      },
+      "false_positive_rate": 0.29357798165137616,
+      "false_negative_rate": 0.06521739130434782
+    },
+    "calibration": {
+      "brier": 0.1464708049009622,
+      "ece": 0.08655041967754931,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 28,
+          "positive_rate": 0.03571428571428571,
+          "mean_probability": 0.06583615392446518
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 31,
+          "positive_rate": 0.06451612903225806,
+          "mean_probability": 0.14994867146015167
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 8,
+          "positive_rate": 0.0,
+          "mean_probability": 0.2539350390434265
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 7,
+          "positive_rate": 0.42857142857142855,
+          "mean_probability": 0.35770130157470703
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 9,
+          "positive_rate": 0.0,
+          "mean_probability": 0.46114063262939453
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 4,
+          "positive_rate": 0.0,
+          "mean_probability": 0.5217628479003906
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 35,
+          "positive_rate": 0.6571428571428571,
+          "mean_probability": 0.6593819856643677
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 4,
+          "positive_rate": 0.75,
+          "mean_probability": 0.7198066115379333
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 75,
+          "positive_rate": 0.8,
+          "mean_probability": 0.865877091884613
+        }
+      ]
+    },
+    "categories": {
+      "negation": {
+        "known": 195,
+        "positive": 5,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "uncertainty": {
+        "known": 195,
+        "positive": 14,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "quantity": {
+        "known": 195,
+        "positive": 60,
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.8888888888888888
+      },
+      "agent": {
+        "known": 195,
+        "positive": 3,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "temporal": {
+        "known": 195,
+        "positive": 4,
+        "precision": 0.2857142857142857,
+        "recall": 1.0,
+        "f1": 0.4444444444444444
+      },
+      "conditional": {
+        "known": 195,
+        "positive": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "entity_terminology": {
+        "known": 198,
+        "positive": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "omission": {
+        "known": 195,
+        "positive": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "addition": {
+        "known": 195,
+        "positive": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "other": {
+        "known": 198,
+        "positive": 3,
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.3333333333333333
+      }
+    },
+    "macro_f1_supported_categories": 0.5575091575091575,
+    "selective": {
+      "coverage": 0.4129353233830846,
+      "abstained": 118,
+      "selective_accuracy": 0.927710843373494,
+      "resolved_correct_fraction": 0.38308457711442784,
+      "thresholds": {
+        "altered": 1.01,
+        "preserved": 0.49
+      },
+      "preserved_decisions": 83,
+      "altered_decisions": 0
+    }
+  },
+  "evaluationSummary": "Independent test: 296 pairs (162 natural MT, 134 authored). Deployed binary F1: 0.776 overall, 0.148 natural MT, 0.857 authored. Major generalization failure: unsuitable for dependable real-world use. Scope supervision did not show a convincing advantage.",
+  "evaluationRows": [
+    {
+      "name": "ordinary-seed17",
+      "f1": 0.7533632286995515,
+      "naturalF1": 0.0,
+      "coverage": 0.5641891891891891
+    },
+    {
+      "name": "scope-seed17",
+      "f1": 0.7532467532467533,
+      "naturalF1": 0.0,
+      "coverage": 0.5878378378378378
+    },
+    {
+      "name": "ordinary-seed29",
+      "f1": 0.7763713080168776,
+      "naturalF1": 0.14814814814814814,
+      "coverage": 0.5777027027027027
+    },
+    {
+      "name": "scope-seed29",
+      "f1": 0.7777777777777778,
+      "naturalF1": 0.15384615384615385,
+      "coverage": 0.5844594594594594
+    },
+    {
+      "name": "ordinary-seed43",
+      "f1": 0.7115384615384616,
+      "naturalF1": 0.0,
+      "coverage": 0.6182432432432432
+    },
+    {
+      "name": "scope-seed43",
+      "f1": 0.7203791469194313,
+      "naturalF1": 0.0,
+      "coverage": 0.5844594594594594
+    },
+    {
+      "name": "frozen",
+      "f1": 0.7644444444444445,
+      "naturalF1": 0.15384615384615385,
+      "coverage": 0.8885135135135135
+    },
+    {
+      "name": "cue",
+      "f1": 0.774869109947644,
+      "naturalF1": 0.0,
+      "coverage": 0.2668918918918919
+    },
+    {
+      "name": "rules",
+      "f1": 0.16393442622950818,
+      "naturalF1": 0.0,
+      "coverage": 0.033783783783783786
+    },
+    {
+      "name": "deployed-onnx",
+      "f1": 0.7763713080168776,
+      "naturalF1": 0.14814814814814814,
+      "coverage": 0.5777027027027027
+    }
+  ]
+}

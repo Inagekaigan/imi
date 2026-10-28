@@ -1,0 +1,63 @@
+{
+  "name": "imi-desktop",
+  "version": "0.2.0",
+  "description": "Offline Japanese-English semantic error research desktop with local XLM-R inference",
+  "main": "src/main.cjs",
+  "author": "Imi contributors",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "train": "node scripts/train.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "smoke": "electron . --smoke-test",
+    "pack": "electron-builder --config electron-builder.cjs --dir --publish never",
+    "dist": "electron-builder --config electron-builder.cjs --win portable --x64 --publish never"
+  },
+  "devDependencies": {
+    "electron": "^42.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "org.imi.desktop",
+    "productName": "Imi",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "src/**/*",
+      "model/baseline.json",
+      "model/evaluation.json",
+      "package.json",
+      "LICENSE"
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "icon": "src/assets/icon.ico",
+      "signAndEditExecutable": false
+    },
+    "artifactName": "Imi-${version}-${arch}.${ext}",
+    "extraResources": [
+      {
+        "from": "research/runtime/imi-inference",
+        "to": "backend"
+      },
+      {
+        "from": "model/neural",
+        "to": "model/neural",
+        "filter": [
+          "manifest.json",
+          "model.onnx",
+          "tokenizer.json",
+          "calibration.json"
+        ]
+      },
+      {
+        "from": "research/DATA_LICENSES.md",
+        "to": "DATA_LICENSES.md"
+      }
+    ]
+  }
+}

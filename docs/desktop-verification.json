@@ -1,0 +1,21 @@
+{
+  "analysis": true,
+  "highlighting": true,
+  "navigation": true,
+  "nodeExposed": false,
+  "bridgeAvailable": true,
+  "inputValidation": true,
+  "uncertainty": true,
+  "batchImport": true,
+  "batchUI": true,
+  "history": true,
+  "exports": true,
+  "neural": {
+    "origin": "neural",
+    "model": "ordinary-seed29",
+    "probability": 0.6481677889823914,
+    "milliseconds": 30.95,
+    "comparison": true,
+    "feedback": true
+  }
+}

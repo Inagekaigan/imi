@@ -1,0 +1,20 @@
+{
+  "model": "research/models/xlm-roberta-base",
+  "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+  "seeds": [17,29,43],
+  "max_length": 192,
+  "batch_size": 4,
+  "gradient_accumulation": 4,
+  "epochs": 3,
+  "learning_rate": 0.00002,
+  "head_learning_rate": 0.0002,
+  "weight_decay": 0.01,
+  "freeze_embeddings": true,
+  "train_encoder_layers": 4,
+  "span_loss_weight": 0.25,
+  "scope_loss_weight": 0.25,
+  "calibration_precision_target": 0.9,
+  "calibration_min_support": 10,
+  "bootstrap_samples": 1000,
+  "notes": "Memory-conscious pilot: train the top four real XLM-R encoder layers, all prediction heads, and keep lower layers frozen. Report this explicitly rather than claiming full-model fine-tuning."
+}

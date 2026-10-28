@@ -1,0 +1,193 @@
+{
+  "repository": "https://github.com/tr4lg/MTPEdocs-MQM",
+  "revision": "f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe",
+  "license": "CC-BY-NC-SA-4.0; source documents excluded by upstream",
+  "redistribution": "Raw and processed sentence text excluded from Imi source distributions.",
+  "files": [
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/001.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/001.json",
+      "sha256": "9449935e193478fdce266d1f448a91b27e65ae9a9363a247f3ff8f9ab832260d"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/002.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/002.json",
+      "sha256": "2d1e7c9090103688d2cdfe7009bcf76b8c0fc62fbb36e32c4147cb3205da7988"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/003.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/003.json",
+      "sha256": "4fed8d97a2c5c68cd19bbb40781373109f800772489c91a2405b7850d259dbca"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/004.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/004.json",
+      "sha256": "088117064c8bb4f54770196d68cfbdae676549f97ad7fd43fc667ac20f56f547"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/005.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/005.json",
+      "sha256": "bf4206a3f78c2c04762e0de3c9b4e21d5b797f0304cbf7ffa901e47131efe799"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/006.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/006.json",
+      "sha256": "70908fc67d263171ce95b795ee6ad9b8684ff146bc1e7a5fd5c6738681692df7"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/007.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/007.json",
+      "sha256": "8a6f9136227e4642db3e7d60ce6d8180f7f7de9bf57aa552f8266e82a215dee3"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/008.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/008.json",
+      "sha256": "e633d130d842bfa12f858626ddba6367b087d7f08bad5f3c397e0e29dc038273"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/009.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/009.json",
+      "sha256": "5c7200607415028fd9f0f70afa790f54931691b6b55ed5e781fc302fd6d1150c"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/010.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/010.json",
+      "sha256": "3128f129b46e93a92b98f163755b3ec20b777d1a63c80c0fe7d4f0aec7a8cb3c"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/011.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/011.json",
+      "sha256": "31e6f6c743bbf1506cdb2fef9c76a75a29fe06f7cfe6bbb53ff71dd2f2533214"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/012.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/012.json",
+      "sha256": "3a14179b75a2ccb5ca4c7e9abbed7a94afd14fa6dc6d8c777bba73ed22192314"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/013.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/013.json",
+      "sha256": "8b6ac43e4b5cd47922ea8944d6420327e2f76eccaa45578e5394ff966af4827c"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/014.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/014.json",
+      "sha256": "344879e0c33d43866c44ef229bc69247b18ca7d01b8bf694e99d74df97d901d3"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/015.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/015.json",
+      "sha256": "dab36362534efd5f91aa77aad62a18cf557819cedf80a09ef0367e1f5dcc08a9"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/016.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/016.json",
+      "sha256": "e61850b34a59f6ab59836d742992137eb034eb305ec99fa4c29c26a536606792"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/017.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/017.json",
+      "sha256": "bd1076cbf0fe0d373709fda1bd70e8bcecf21d07440cbf2084c1ef64cf722b11"
+    },
+    {
+      "path": "MT-MQM/JaEn_01_TexTra/018.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_01_TexTra/018.json",
+      "sha256": "ebeb40779da37553eaf97686f06b6ea5a98663516211b4afcaea7d04e5ecfd99"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/001.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/001.json",
+      "sha256": "9d2a9e43e52728f781921763031021318f09cc3c8f1d7f6ec5dc7c80d088c1e8"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/002.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/002.json",
+      "sha256": "9ddaf51e226cc915c191154fb41dadb2c46a970ae8f599a4454d30fe40c9e757"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/003.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/003.json",
+      "sha256": "49580816999f2583b2a08346f1ce996172999d4802b2ef805e9636922f840382"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/004.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/004.json",
+      "sha256": "0ce9a75227dc372883f5f65c208e34c03fa17dec977500d10b132633069981a9"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/005.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/005.json",
+      "sha256": "af6e3e816fb807b447ebf9c842c414942f44026015c7b3a697f9d4b87f81a646"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/006.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/006.json",
+      "sha256": "9e87e8b11feab9f4fbbf55a8b45d00284088724532246528617c3cf0410d342a"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/007.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/007.json",
+      "sha256": "14fc08298529c65ee6d6691af1da5494e0a48969f60d71e7cb96984ac73bc688"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/008.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/008.json",
+      "sha256": "5be1cbc4151847ecf57d2951d7d9af06fa782c3cfa14a3608ef816c1b8d9696d"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/009.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/009.json",
+      "sha256": "67b65408075932dee032d93ffac7ecd1f8d08f2d147773eb407a7abdc263627b"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/010.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/010.json",
+      "sha256": "bbb827ee8ac1bc5fb5813d015dcadb8581518b7e253eda0dd36c7e2850a70f85"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/011.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/011.json",
+      "sha256": "f569d72657d6abeabf91c2154b82f435f2824d3830e52db0ed4b99f8573053f6"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/012.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/012.json",
+      "sha256": "f0daa4c2b1148c644fe47e0e47f45a1792cdf91463b52cc5c3c477c6be676fa0"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/013.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/013.json",
+      "sha256": "05639f3d0cb629926c28936067e5ac496b77048a3dffb7a43c3078fca5ac4697"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/014.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/014.json",
+      "sha256": "1fb1edcfd1c429067c73cb7ab475955d404ab4b7bd694a2f0dd7eab1c3519813"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/015.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/015.json",
+      "sha256": "1566affc145aabb665799e425c077b368cf7af54400425e5c18921253ecefff6"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/016.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/016.json",
+      "sha256": "1c145d07197516813e9615a41412c9f6d24f3e1e82d732bc4ea0b8c70c95b8a0"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/017.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/017.json",
+      "sha256": "1c03a92c20fba6add8d12dd097a1a620e08c33ace69abb0393acfe87d6948176"
+    },
+    {
+      "path": "MT-MQM/JaEn_02_Google/018.json",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/MT-MQM/JaEn_02_Google/018.json",
+      "sha256": "e856f49e1487d657ebacc50bee56e31360c12f73e9bdc4807aafcf673dc40586"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/tr4lg/MTPEdocs-MQM/f2a25fb0e8e729c3e32505ae33ea5a9121ae69fe/README.md",
+      "sha256": "9fda5c65f1495af91fdb5e7cbc09c8b4302f75b48a3638c32ac6c5d8ae8ddb0c"
+    }
+  ]
+}

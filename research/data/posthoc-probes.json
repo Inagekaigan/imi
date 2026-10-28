@@ -1,0 +1,142 @@
+[
+  {
+    "id": "0",
+    "group": "paraphrase-1",
+    "japanese": "会議は雨のため中止になった。",
+    "english": "Rain forced the cancellation of the meeting.",
+    "altered": 0
+  },
+  {
+    "id": "1",
+    "group": "paraphrase-1",
+    "japanese": "会議が中止になったため、雨が降った。",
+    "english": "Rain forced the cancellation of the meeting.",
+    "altered": 1
+  },
+  {
+    "id": "2",
+    "group": "omitted-1",
+    "japanese": "昨日、駅で財布をなくした。",
+    "english": "A wallet was lost at the station yesterday.",
+    "altered": 0
+  },
+  {
+    "id": "3",
+    "group": "omitted-1",
+    "japanese": "昨日、駅で財布をなくした。",
+    "english": "Hanako deliberately stole a wallet yesterday.",
+    "altered": 1
+  },
+  {
+    "id": "4",
+    "group": "conditional-1",
+    "japanese": "鍵を返さなければ、入館できません。",
+    "english": "You cannot enter unless you return the key.",
+    "altered": 0
+  },
+  {
+    "id": "5",
+    "group": "conditional-1",
+    "japanese": "鍵を返さなければ、入館できません。",
+    "english": "You can enter without returning the key.",
+    "altered": 1
+  },
+  {
+    "id": "6",
+    "group": "passive-1",
+    "japanese": "美咲は健に招待された。",
+    "english": "Ken invited Misaki.",
+    "altered": 0
+  },
+  {
+    "id": "7",
+    "group": "passive-1",
+    "japanese": "美咲は健に招待された。",
+    "english": "Misaki invited Ken.",
+    "altered": 1
+  },
+  {
+    "id": "8",
+    "group": "passive-2",
+    "japanese": "直子は修に招待された。",
+    "english": "Osamu invited Naoko.",
+    "altered": 0
+  },
+  {
+    "id": "9",
+    "group": "passive-2",
+    "japanese": "直子は修に招待された。",
+    "english": "Naoko invited Osamu.",
+    "altered": 1
+  },
+  {
+    "id": "10",
+    "group": "number-1",
+    "japanese": "容器には約250ミリリットル入る。",
+    "english": "The container holds roughly 250 milliliters.",
+    "altered": 0
+  },
+  {
+    "id": "11",
+    "group": "number-1",
+    "japanese": "容器には約250ミリリットル入る。",
+    "english": "The container holds exactly 250 liters.",
+    "altered": 1
+  },
+  {
+    "id": "12",
+    "group": "number-2",
+    "japanese": "容器には約730ミリリットル入る。",
+    "english": "The container holds roughly 730 milliliters.",
+    "altered": 0
+  },
+  {
+    "id": "13",
+    "group": "number-2",
+    "japanese": "容器には約730ミリリットル入る。",
+    "english": "The container holds exactly 730 liters.",
+    "altered": 1
+  },
+  {
+    "id": "14",
+    "group": "scope-new",
+    "japanese": "説明を聞いた人が全員理解したとは限らない。",
+    "english": "Some listeners may not have understood the explanation.",
+    "altered": 0
+  },
+  {
+    "id": "15",
+    "group": "scope-new",
+    "japanese": "説明を聞いた人が全員理解したとは限らない。",
+    "english": "Nobody who listened understood the explanation.",
+    "altered": 1
+  },
+  {
+    "id": "16",
+    "group": "permission",
+    "japanese": "ここでは写真を撮ってもかまいません。",
+    "english": "Taking photographs here is permitted.",
+    "altered": 0
+  },
+  {
+    "id": "17",
+    "group": "permission",
+    "japanese": "ここでは写真を撮ってもかまいません。",
+    "english": "Photography is prohibited here.",
+    "altered": 1
+  },
+  {
+    "id": "18",
+    "group": "entity",
+    "japanese": "荷物は大阪ではなく京都に届いた。",
+    "english": "The parcel arrived in Kyoto rather than Osaka.",
+    "altered": 0
+  },
+  {
+    "id": "19",
+    "group": "entity",
+    "japanese": "荷物は大阪ではなく京都に届いた。",
+    "english": "The parcel arrived in Osaka rather than Kyoto.",
+    "altered": 1
+  }
+]
